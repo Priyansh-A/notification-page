@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&display=swap');
+
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    html{
+        font-size: 16px;
+        font-family: 'Outfit', sans-serif;
+    }
+    body{
+        min-height: 100vh;
+        background-color:  hsl(205, 33%, 90%);
+    }
+
+    #notifications{
+        background-color: darkblue;
+        margin-left: .5rem;
+        width: 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2rem;
+        color: white;
+        font-weight: 800;
+        border-radius: .5rem;
+        cursor: pointer;
+
+    }
+.nof{
+    margin-left: -1.5rem;
+}
+div.container{
+    max-width: 550px;
+    margin: 5rem auto;
+    border-radius: 1rem;
+    padding: 1em 3rem;
+    border: 1px solid white;
+    position: relative;
+    background-color: hsl(210, 60%, 98%);
+
+}
+
+div.card{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    border-radius: .5rem;
+    margin : 1em -1em;
+    padding: .75em;
+cursor: pointer;
+
+}
+div.msg{
+    border: 1px solid   hsl(219, 12%, 42%);
+    border-radius: .5rem;
+    padding: .5em 1em;
+    margin: 0 2em;
+    color:hsl(219, 14%, 63%);
+}
+
+p{
+    flex-direction: colum;
+}
+strong.name , .nof {
+    font-weight: 800;
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
+}
+
+.post{
+    color: hsl(219, 12%, 42%) ;
+    font-weight: 800;
+}
+.mark{
+color:hsl(219, 14%, 63%);
+font-weight: 800;
+cursor: pointer;
+margin-right: -1rem;
+}
+
+.chess{
+    color:   hsl(219, 85%, 26%);
+}
+
+nav ul{
+    display: flex;
+    position: relative;
+    list-style: none;
+}
+.mark{
+        position: absolute;
+        right: 0;
+    }
+    .nof{
+        font-weight: bolder;
+        font-size: 1.5em;
+        color:  hsl(224, 21%, 14%);
+
+    }
+
+
+    img{
+        height: 2.5em;
+    }
+
+
+h1{
+    font-size: 1.5em;
+}
+.unread{
+background-color:  hsl(211, 68%, 94%) ;
+}
+.unread .active{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: red;
+    margin-top: -.5rem;
+    margin-left: -4.2rem;
+}
+
