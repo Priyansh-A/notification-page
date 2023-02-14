@@ -36,7 +36,7 @@
 .nof{
     margin-left: -1.5rem;
 }
-div.container{
+.container{
     max-width: 550px;
     margin: 5rem auto;
     border-radius: 1rem;
@@ -46,8 +46,7 @@ div.container{
     background-color: hsl(210, 60%, 98%);
 
 }
-
-div.card{
+.card{
     display: flex;
     align-items: center;
     gap: 1em;
@@ -55,9 +54,25 @@ div.card{
     margin : 1em -1em;
     padding: .75em;
 cursor: pointer;
-
 }
-div.msg{
+
+
+.unread{
+    background-color:  hsl(211, 68%, 94%) ;
+    position: relative;
+    }
+    .active{
+        width: .5rem;
+        height: .5rem;
+        border-radius: 50%;
+        background-color: red;
+        justify-content:baseline;
+        position: absolute;
+        margin-left: 4.5rem;
+        margin-top: 0.5rem;
+    }
+
+.msg{
     border: 1px solid   hsl(219, 12%, 42%);
     border-radius: .5rem;
     padding: .5em 1em;
@@ -114,15 +129,3 @@ nav ul{
 h1{
     font-size: 1.5em;
 }
-.unread{
-background-color:  hsl(211, 68%, 94%) ;
-}
-.unread .active{
-    width: .5rem;
-    height: .5rem;
-    border-radius: 50%;
-    background-color: red;
-    margin-top: -.5rem;
-    margin-left: -4.2rem;
-}
-
