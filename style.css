@@ -66,10 +66,11 @@ cursor: pointer;
         height: .5rem;
         border-radius: 50%;
         background-color: red;
-        justify-content:baseline;
-        position: absolute;
+        justify-content:flex-end;
+        position: absolute; 
         margin-left: 4.5rem;
         margin-top: 0.5rem;
+
     }
 
 .msg{
