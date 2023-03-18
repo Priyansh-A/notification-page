@@ -19,7 +19,7 @@ for(let i = 0; i<3; i++){
     read.addEventListener("click", ()=>{
         read.classList.remove("unread")
         action.classList.remove("active");
-        if(numb>=0){
+        if(numb>=1){
         numb--;
         marked.textContent = numb;
         }  
